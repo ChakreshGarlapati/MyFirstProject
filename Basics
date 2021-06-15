@@ -1,0 +1,8 @@
+name=input("Enter your name")
+print (name)
+
+#Single line comments
+"""
+This is the 
+multiple line comment
+"""
