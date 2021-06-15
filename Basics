@@ -1,3 +1,4 @@
+#print your name
 name=input("Enter your name")
 print (name)
 
@@ -6,3 +7,27 @@ print (name)
 This is the 
 multiple line comment
 """
+
+#Define variables for different data types int,boolean,char,float and print 
+a=10
+b=3.5
+c="chakresh"
+d=True
+print(a,b,c,d)
+
+#Define local and global variables with same name and print both variables and understand the scope
+a=10
+b=5
+def doge():
+    a=45
+    b=12
+    print("local variable access",a,b)
+print("Global variable access:",a,b)
+doge()
+
+
+#Write a fun to print your name and call the fun from main method
+def name():
+    name=input("Enter your name:")
+    print(name)
+name()
