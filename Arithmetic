@@ -1,0 +1,16 @@
+#Write a fun for arithmetic operators
+def arith_op():
+    c=a+b 
+    print("Sum of two numbers:", c)
+    c=a-b 
+    print("Sub of two numbers:", c)
+    c=a*b 
+    print("Mul of two numbers:", c)
+    c=a/b 
+    print("Div of two numbers:", c)
+    #c=a%b 
+    #print("Modulus of two numbers:", c)
+
+a=int(input("Enter the a value:"))
+b=int(input("Enter the b value:"))
+arith_op()
