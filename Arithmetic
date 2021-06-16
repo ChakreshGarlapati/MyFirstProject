@@ -1,4 +1,4 @@
-#Write a fun for arithmetic operators
+#Write a fun for arithmetic operators(+,-,*,/,%)
 def arith_op():
     c=a+b 
     print("Sum of two numbers:", c)
@@ -14,3 +14,14 @@ def arith_op():
 a=int(input("Enter the a value:"))
 b=int(input("Enter the b value:"))
 arith_op()
+
+#Method for inc and dec operators(++,--) 
+def inc_dec():
+    a=int(input("Enter the number"))
+    if(a in range(20,78)):
+        a+=5
+        print(a)
+    else:
+        a-=7
+        print(a)
+inc_dec()
